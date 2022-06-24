@@ -1,0 +1,14 @@
+{
+  "name": "test_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:PavelBelov112358/test_bot.git",
+  "author": "Pavel Belov <p.belov@agro.club>",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.8.5"
+  }
+}
