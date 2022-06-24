@@ -1,0 +1,9 @@
+version: "3"
+services:
+  bot:
+    build: .
+    restart: on-failure
+    environment:
+      - BOT_TOKEN=5430833420:AAFz9Q37Inquxbll2sThPC896V5a_dK_hjw
+    ports:
+      - "8000:8000"
